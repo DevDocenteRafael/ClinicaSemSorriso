@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.text-center{
+background-color: rgba(255, 228, 196, 0.413);
+}
+
+.collapse{
+    padding: 20px;
+}
