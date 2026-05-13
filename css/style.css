@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
 }
-
+.clinica-sorriso-principal{
+    background-color: rgba(255, 228, 196, 0.548);
+}
 .text-center {
-    background-color: rgba(255, 228, 196, 0.413);
+    background-color: rgba(255, 228, 196, 0.548);
 }
 
 .collapse {
