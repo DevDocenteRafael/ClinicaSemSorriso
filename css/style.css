@@ -3,14 +3,15 @@
     padding: 0;
 }
 .clinica-sorriso-principal{
-    background-color: rgba(255, 228, 196, 0.548);
+    background-color: rgba(255, 228, 196, 0.897);
 }
 .text-center {
-    background-color: rgba(255, 228, 196, 0.548);
+    background-color: rgba(255, 228, 196, 0.897);
 }
 
 .collapse {
     padding: 20px;
+   
 }
 
 
@@ -18,11 +19,14 @@
     margin: auto;
     margin-top: 10px;
     width: 1200px;
+    border-radius: 15px;
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.514);
 }
 
 .card-boot{
     padding: 20px;
     width: 700px;
     margin: auto;
+    
 
 }
