@@ -1,11 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.text-center{
-background-color: rgba(255, 228, 196, 0.413);
+
+.text-center {
+    background-color: rgba(255, 228, 196, 0.413);
 }
 
-.collapse{
+.collapse {
     padding: 20px;
+}
+
+
+.carousel{
+    margin: auto;
+    margin-top: 10px;
+    width: 1200px;
+}
+
+.card-boot{
+    padding: 20px;
+    width: 700px;
+    margin: auto;
+
 }
