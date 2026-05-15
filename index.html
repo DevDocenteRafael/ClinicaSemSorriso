@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica sem sorriso</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -17,6 +19,7 @@
                 <img src="./img/Clínica sem sorriso.svg" alt="">
             </div>
             <nav class="navbar navbar-expand-sm navbar-dark bg-blue">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                     aria-label="Toggle navigation"></button>
@@ -24,6 +27,8 @@
                     <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="#" aria-current="page">Inicio</span></a>
+                            <a class="nav-link active" href="#" aria-current="page">Inicio <span
+                                    class="visually-hidden">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contato</a>
@@ -33,6 +38,9 @@
                         <input class="form-control me-sm-2" type="text" placeholder="Pesquisar" />
                         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
                             Buscar
+                        <input class="form-control me-sm-2" type="text" placeholder="Search" />
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                            Search
                         </button>
                     </form>
                 </div>
@@ -42,6 +50,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <img src="./img/banner1.png" class="d-block w-100" alt="...">
+                        <img src="./img/Banner1.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
@@ -50,6 +59,16 @@
                         <img src="./img/banner3.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </div>
 
@@ -64,6 +83,9 @@
                             <h5 class="card-title">Endodontia (Tratamento de Canal)</h5>
                             <p class="card-text">Tratamento da polpa dentária.</p>
                         </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">10:30 às 16:00</small>
+                        </div>
                     </div>
                 </div>
                 <div class="col">
@@ -73,6 +95,9 @@
                             <h5 class="card-title">Ortodontia</h5>
                             <p class="card-text">Correção do posicionamento dos dentes e arcadas (aparelhos fixos e
                                 alinhadores).</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">8:30 às 14:00</small>
                         </div>
                     </div>
                 </div>
@@ -109,6 +134,20 @@
     </div>
 
     <footer class="bg-body- text-center">
+                        <div class="card-footer">
+                            <small class="text-body-secondary">9:00 às 17:00</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+
+    <footer class="bg-body-tertiary text-center">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
             <!-- Section: Social media -->
@@ -116,6 +155,7 @@
                 <!-- Facebook -->
                 <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
                     href="https://pt-br.facebook.com/" role="button"><i class="fab fa-facebook-f"></i></a>
+                    href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
 
                 <!-- Twitter -->
                 <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee;"
@@ -137,6 +177,35 @@
         <!-- Copyright -->
     </footer>
 
+                <!-- Google -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+                    href="#!" role="button"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+                    href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+                    href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+                <!-- Github -->
+                <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                    href="#!" role="button"><i class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2020 Copyright:
+            <a class="text-body" href="#">Clinicasemsorriso.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
