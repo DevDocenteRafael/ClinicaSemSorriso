@@ -2,31 +2,140 @@
     margin: 0;
     padding: 0;
 }
-.clinica-sorriso-principal{
-    background-color: rgba(255, 228, 196, 0.897);
+
+.clinica-sorriso-principal {
+    background-color: rgba(0, 0, 0, 0.562);
 }
+
 .text-center {
     background-color: rgba(255, 228, 196, 0.897);
 }
 
 .collapse {
     padding: 20px;
-   
 }
 
-
-.carousel{
+.carousel {
     margin: auto;
     margin-top: 10px;
-    width: 1200px;
+    width: 1000px;
     border-radius: 15px;
     box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.514);
 }
 
-.card-boot{
+.card-boot {
     padding: 20px;
     width: 700px;
     margin: auto;
-    
+}
 
+body {
+    background-image: url(/img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.serviços {
+    text-align: center;
+    color: rgb(255, 239, 210);
+    margin-top: 30px;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.footer {
+    background: rgba(255, 228, 196, 0.897);
+    color: white;
+    padding: 50px 20px 20px;
+    margin-top: 50px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer-logo h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.footer-logo p {
+    color: #b3b3b3;
+    max-width: 300px;
+    line-height: 1.5;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: #00bfff;
+}
+
+.footer-social {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 45px;
+    height: 45px;
+    background: #1c1c1c;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    background: #00bfff;
+    transform: translateY(-5px);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 40px;
+    border-top: 1px solid #2a2a2a;
+    padding-top: 20px;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+    }
+}
+.navbar{
+    background-color: #0000005b;
 }
